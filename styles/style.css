@@ -111,6 +111,21 @@ main > section{
 .team-span{
     font-weight: 500;
 }
+
+/* Facts Css */
+.facts-header{
+    max-width: 570px;
+    margin-bottom: 50px;
+}
+.facts-header .section-title{
+    margin: 0;
+}
+.facts-items{
+    display: grid;
+}
+.fact-item{
+    text-align: center;
+}
 /* Responsive Area */
 @media screen and (max-width: 576px) {
     .navbar, .nav-links{
